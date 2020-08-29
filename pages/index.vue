@@ -7,7 +7,15 @@
 </template>
 
 <script>
-export default {}
+export default {
+
+    head () {
+        return {
+            title: 'Mohamed Aitmiloud | Web Developer'
+        }
+    }
+
+}
 </script>
 
 <style>

@@ -48,32 +48,24 @@
               </h2>
               <div class="yb-resume-list">
                 <ul class="uk-list uk-list-large uk-list-divider">
-                  <li>
+
+
+
+                  <li v-for="(education, index) in allEducations" :key="index">
                     <div class="yb-resume-item">
                       <div class="yb-resume-item-date">
                         <div class="yb-resume-item-date-icon"> <span data-uk-icon="calendar"></span></div>
-                        <div class="yb-resume-item-date-text"><span>2011 - 2013</span></div>
+                        <div class="yb-resume-item-date-text"><span>{{ education.period }}</span></div>
                       </div>
-                      <h4 class="yb-section-title">Bachelor of Science in Computer Science</h4>
-                      <strong>International University</strong>
+                      <h4 class="yb-section-title">{{ education.title }}</h4>
+                      <strong>{{ education.school }}</strong>
                       <div class="uk-text-small">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incidiei dunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud</p>
+                        <p>{{ education.body }}</p>
                       </div>
                     </div>
                   </li>
-                  <li>
-                    <div class="yb-resume-item">
-                      <div class="yb-resume-item-date">
-                        <div class="yb-resume-item-date-icon"> <span data-uk-icon="calendar"></span></div>
-                        <div class="yb-resume-item-date-text"><span>2008 - 2011</span></div>
-                      </div>
-                      <h4 class="yb-section-title">Computer Processing Systems/Computer Software</h4>
-                      <strong>Longford Tech</strong>
-                      <div class="uk-text-small">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incidiei dunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud</p>
-                      </div>
-                    </div>
-                  </li>
+
+
                 </ul>
               </div>
             </div>
@@ -83,80 +75,44 @@
               </h2>
               <div class="yb-resume-list">
                 <ul class="uk-list uk-list-large uk-list-divider">
-                  <li>
+
+                  <li v-for="(experience, index) in allExperiences" :key="index">
                     <div class="yb-resume-item">
                       <div class="yb-resume-item-date">
                         <div class="yb-resume-item-date-icon"> <span data-uk-icon="calendar"></span></div>
-                        <div class="yb-resume-item-date-text"><span>2018 - Present</span></div>
+                        <div class="yb-resume-item-date-text"><span>{{ experience.period }}</span></div>
                       </div>
-                      <h4 class="yb-section-title">Software Developer</h4>
-                      <strong>River Tech</strong>
+                      <h4 class="yb-section-title">{{ experience.title }}</h4>
+                      <strong>{{ experience.place }}</strong>
                       <div class="uk-text-small">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incidiei dunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud</p>
+                        <p>{{ experience.body }}</p>
                       </div>
                     </div>
                   </li>
-                  <li>
-                    <div class="yb-resume-item">
-                      <div class="yb-resume-item-date">
-                        <div class="yb-resume-item-date-icon"> <span data-uk-icon="calendar"></span></div>
-                        <div class="yb-resume-item-date-text"><span>2016 - 2018</span></div>
-                      </div>
-                      <h4 class="yb-section-title">Web Designer</h4>
-                      <strong>Retail Ocean</strong>
-                      <div class="uk-text-small">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incidiei dunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud</p>
-                      </div>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="yb-resume-item">
-                      <div class="yb-resume-item-date">
-                        <div class="yb-resume-item-date-icon"> <span data-uk-icon="calendar"></span></div>
-                        <div class="yb-resume-item-date-text"><span>2014 - 2016</span></div>
-                      </div>
-                      <h4 class="yb-section-title">Web Marketing</h4>
-                      <strong>Proper Team</strong>
-                      <div class="uk-text-small">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incidiei dunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud</p>
-                      </div>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="yb-resume-item">
-                      <div class="yb-resume-item-date">
-                        <div class="yb-resume-item-date-icon"> <span data-uk-icon="calendar"></span></div>
-                        <div class="yb-resume-item-date-text"><span>2013 - 2014</span></div>
-                      </div>
-                      <h4 class="yb-section-title">Web Tester</h4>
-                      <strong>Ota Group</strong>
-                      <div class="uk-text-small">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incidiei dunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud</p>
-                      </div>
-                    </div>
-                  </li>
+
+
                 </ul>
               </div>
             </div>
             <div>
               <h2 class="yb-section-title  uk-heading-line " id="skills">
-                <span>Skills</span>
+                <span>My Tech Stack</span>
               </h2>
               <div class="yb-margin-top-1 yb-margin-bottom-2">
                 <div class="uk-grid-collapse  uk-child-width-1-2 uk-child-width-1-3@s uk-child-width-1-4@m uk-text-center" data-uk-grid>
                   <div class="yb-bg-soft">
                     <div class="yb-box-circle">
-                      <div class="circle-progress " data-value="0.9">
-                        <strong>90<i>%</i></strong>
-                      </div>
-                      <h5 class="yb-box-circle-title">CSS</h5>
+                     
+                        <img src="/img/stack/vue.png" width="100" height="100">
+      
+                      <h5 class="yb-box-circle-title">Vuejs</h5>
                     </div>
                   </div>
                   <div>
                     <div class="yb-box-circle">
-                      <div class="circle-progress " data-value="0.9">
-                        <strong>90<i>%</i></strong>
-                      </div>
+                    
+                        <img src="/img/stack/html.png" width="100" height="100">
+               
                       <h5 class="yb-box-circle-title">HTML</h5>
                     </div>
                   </div>
@@ -285,42 +241,17 @@
               </h2>
               <div class="yb-resume-list">
                 <ul class="uk-list uk-list-large uk-list-divider">
-                  <li>
+
+                  <li v-for="(award, index) in allAwards" :key="index">
                     <div class="yb-resume-item">
                       <div class="yb-resume-item-date">
                         <div class="yb-resume-item-date-icon"> <span data-uk-icon="calendar"></span></div>
-                        <div class="yb-resume-item-date-text"><span>2018 - 2019</span></div>
+                        <div class="yb-resume-item-date-text"><span>{{ award.period }}</span></div>
                       </div>
-                      <h4 class="yb-section-title">Top 10 Web Developer</h4>
-                      <strong>Ota Group</strong>
+                      <h4 class="yb-section-title">{{ award.title }}</h4>
+                      <strong>{{ award.place }}</strong>
                       <div class="uk-text-small">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incidiei dunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud</p>
-                      </div>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="yb-resume-item">
-                      <div class="yb-resume-item-date">
-                        <div class="yb-resume-item-date-icon"> <span data-uk-icon="calendar"></span></div>
-                        <div class="yb-resume-item-date-text"><span>2015 - 2016</span></div>
-                      </div>
-                      <h4 class="yb-section-title">Top 5 LeaderShip Exellence Winner</h4>
-                      <strong>Proper Team</strong>
-                      <div class="uk-text-small">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incidiei dunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud</p>
-                      </div>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="yb-resume-item">
-                      <div class="yb-resume-item-date">
-                        <div class="yb-resume-item-date-icon"> <span data-uk-icon="calendar"></span></div>
-                        <div class="yb-resume-item-date-text"><span>2012 - 2015</span></div>
-                      </div>
-                      <h4 class="yb-section-title">Top 4 Web Tester</h4>
-                      <strong>Rival Ocean</strong>
-                      <div class="uk-text-small">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incidiei dunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud</p>
+                        <p>{{ award.body }}</p>
                       </div>
                     </div>
                   </li>
@@ -345,6 +276,16 @@
       </div>
     </section><!-- end resume section -->
 </template>
+
+<script>
+
+  export default{
+      props: ['allEducations','allExperiences','allAwards'],
+
+  }
+
+
+</script>
 
 <style>
 

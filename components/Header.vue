@@ -20,7 +20,7 @@
         </div>
         <div class="uk-container uk-text-center yb-profile-desc-wrap uk-position-relative">
           <img src="img/x1.png" alt="" width="60" />
-          <h1 class="uk-text-bold yb-gradient-text"><span>Freda</span> <span>Hamtom</span></h1>
+          <h1 class="uk-text-bold yb-gradient-text"><span>Mohamed</span> <span>Aitmiloud</span></h1>
           <div class="uk-text-bold yb-myjob">
             Im a <span id="typed" class="typed"></span>
           </div>
@@ -33,7 +33,7 @@
     <nav class="yb-main-menu " id="main-menu">
       <div class="uk-container" data-uk-navbar>
         <div class="uk-navbar-left">
-          <a class="yb-logo uk-navbar-item uk-logo" href="dark-index.html"><span>Freda</span></a>
+          <a class="yb-logo uk-navbar-item uk-logo" href="dark-index.html"><span>Aitmiloud</span></a>
         </div>
         <div class="uk-navbar-right uk-hidden@m">
           <a class="uk-navbar-toggle" href="#" id="btn-menu-toggle">
@@ -48,16 +48,13 @@
                 <a class="yb-inner-link" href="#home"> Home </a>
               </li>
               <li>
-                <a class="yb-inner-link" href="#about"> About</a>
-              </li>
-              <li>
-                <a class="yb-inner-link" href="#resume"> Resume </a>
-              </li>
-              <li>
                 <a class="yb-inner-link" href="#portfolio"> Portfolio </a>
               </li>
               <li>
-                <a class="yb-inner-link" href="#blog"> Blog </a>
+                <a class="yb-inner-link" href="#about"> About </a>
+              </li>
+              <li>
+                <a class="yb-inner-link" href="#resume"> Resume </a>
               </li>
               <li>
                 <a class="yb-inner-link" href="#contact"> Contact </a>
