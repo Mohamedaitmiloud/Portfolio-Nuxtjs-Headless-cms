@@ -4,7 +4,7 @@
   			<!-- <h1 v-for="(award, index) in allAwards" :key="index">{{ award.title }}</h1> -->
   			<Portfolio :allWorks="allWorks" />
   			<About />
-  			<Resume :allEducations="allEducations" :allExperiences="allExperiences" :allAwards="allAwards" />
+  			<Resume :allEducations="allEducations" :allExperiences="allExperiences" :allAwards="allAwards" :allStacks="allStacks"/>
   			<Contact />
   </main> <!-- end main section -->
 </template>
@@ -57,6 +57,18 @@
     period
     title
     body
+  }
+
+
+    }`,
+
+   allStacks: gql`{
+
+  allStacks{
+    name
+    logo{
+      url
+    }
   }
 
 

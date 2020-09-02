@@ -18,14 +18,14 @@
               </h2>
               <p class="uk-text-bold">Feel free to contact me</p>
               <div id="contact-form-alert"></div>
-              <form id="contact-form" class="uk-form-stacked">
+              <form name="contact" id="contact-form" class="uk-form-stacked" data-netlify="true">
                 <div class="uk-grid uk-grid-small uk-child-width-1-2@s">
                   <div>
                     <div class="uk-margin">
                       <label for="f_email" class="uk-form-label">Email*</label>
                       <div class="uk-form-controls uk-inline uk-width-1-1">
                         <span class="uk-form-icon" data-uk-icon="icon: user"></span>
-                        <input class="yb-input uk-input  uk-border-rounded" type="email" name="f_email" id="f_email" placeholder=" Your email here . . ." />
+                        <input class="yb-input uk-input  uk-border-rounded" type="email" name="email" id="f_email" placeholder=" Your email here . . ." />
                       </div>
                       <small class="uk-text-danger err-msg" id="f_email_error"></small>
                     </div>
@@ -35,27 +35,16 @@
                       <label for="f_phone" class="uk-form-label">Phone*</label>
                       <div class="uk-form-controls uk-inline uk-width-1-1">
                         <span class="uk-form-icon" data-uk-icon="icon: phone"></span>
-                        <input class="yb-input uk-input uk-border-rounded" type="text" name="f_phone" id="f_phone" placeholder=" Your phone here . . ." />
+                        <input class="yb-input uk-input uk-border-rounded" type="text" name="phone" id="f_phone" placeholder=" Your phone here . . ." />
                       </div>
                       <small class="uk-text-danger err-msg" id="f_phone_error"></small>
                     </div>
                   </div>
                 </div>
-                <div class="uk-margin">
-                  <label class="uk-form-label">Subject*</label>
-                  <div class="uk-form-controls uk-grid-small uk-child-width-auto uk-grid">
-                    <label><input class="uk-radio" type="radio" name="f_subject" value="General" checked />
-                      General</label>
-                    <label><input class="uk-radio" type="radio" name="f_subject" value="Project Preview" /> Project
-                      Review</label>
-                    <label><input class="uk-radio" type="radio" name="f_subject" value="Hire Me" /> Hire
-                      Me</label>
-                  </div>
-                </div>
                 <div class="uk-margin ">
                   <label for="f_message" class="uk-form-label">Message*</label>
                   <div class="uk-form-controls">
-                    <textarea class="yb-input  uk-textarea uk-border-rounded" rows="7" name="f_message" id="f_message" placeholder="Your message here . . ."></textarea>
+                    <textarea class="yb-input  uk-textarea uk-border-rounded" rows="7" name="message" id="f_message" placeholder="Your message here . . ."></textarea>
                   </div>
                   <small class="uk-text-danger err-msg" id="f_message_error"></small>
                 </div>

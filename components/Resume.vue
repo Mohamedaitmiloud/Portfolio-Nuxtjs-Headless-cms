@@ -100,70 +100,16 @@
               </h2>
               <div class="yb-margin-top-1 yb-margin-bottom-2">
                 <div class="uk-grid-collapse  uk-child-width-1-2 uk-child-width-1-3@s uk-child-width-1-4@m uk-text-center" data-uk-grid>
-                  <div class="yb-bg-soft">
+
+                  <div v-for="(stack, index) in allStacks" :key="index">
                     <div class="yb-box-circle">
                      
-                        <img src="/img/stack/vue.png" width="100" height="100">
+                        <img :src="stack.logo.url" width="100" height="100">
       
-                      <h5 class="yb-box-circle-title">Vuejs</h5>
+                      <h5 class="yb-box-circle-title">{{ stack.name }}</h5>
                     </div>
                   </div>
-                  <div>
-                    <div class="yb-box-circle">
-                    
-                        <img src="/img/stack/html.png" width="100" height="100">
-               
-                      <h5 class="yb-box-circle-title">HTML</h5>
-                    </div>
-                  </div>
-                  <div class="yb-bg-soft">
-                    <div class="yb-box-circle">
-                      <div class="circle-progress " data-value="1">
-                        <strong>100<i>%</i></strong>
-                      </div>
-                      <h5 class="yb-box-circle-title">PHP</h5>
-                    </div>
-                  </div>
-                  <div>
-                    <div class="yb-box-circle">
-                      <div class="circle-progress " data-value="0.8">
-                        <strong>80<i>%</i></strong>
-                      </div>
-                      <h5 class="yb-box-circle-title">Flutter</h5>
-                    </div>
-                  </div>
-                  <div>
-                    <div class="yb-box-circle">
-                      <div class="circle-progress " data-value="0.6">
-                        <strong>60<i>%</i></strong>
-                      </div>
-                      <h5 class="yb-box-circle-title">ROR</h5>
-                    </div>
-                  </div>
-                  <div class="yb-bg-soft">
-                    <div class="yb-box-circle">
-                      <div class="circle-progress " data-value="0.7">
-                        <strong>70<i>%</i></strong>
-                      </div>
-                      <h5 class="yb-box-circle-title">Elixir</h5>
-                    </div>
-                  </div>
-                  <div>
-                    <div class="yb-box-circle">
-                      <div class="circle-progress " data-value="0.8">
-                        <strong>80<i>%</i></strong>
-                      </div>
-                      <h5 class="yb-box-circle-title">Git</h5>
-                    </div>
-                  </div>
-                  <div class="yb-bg-soft">
-                    <div class="yb-box-circle">
-                      <div class="circle-progress " data-value="0.9">
-                        <strong>90<i>%</i></strong>
-                      </div>
-                      <h5 class="yb-box-circle-title">Mysql</h5>
-                    </div>
-                  </div>
+
                 </div>
                 <div data-uk-grid class="uk-child-width-1-2">
                   <div>
@@ -280,7 +226,7 @@
 <script>
 
   export default{
-      props: ['allEducations','allExperiences','allAwards'],
+      props: ['allEducations','allExperiences','allAwards','allStacks'],
 
   }
 
