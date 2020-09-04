@@ -64,18 +64,13 @@
           <div class="uk-navbar-right">
             <ul class="uk-navbar-nav yb-social-icons">
               <li>
-                <a href="#">
+                <a href="https://www.facebook.com/Mohamed.aitmiloud">
                   <span class="uk-icon " data-uk-icon="icon: facebook"></span>
                 </a>
               </li>
               <li>
-                <a href="#">
+                <a href="https://www.instagram.com/geekait2/">
                   <span class="uk-icon" data-uk-icon="icon: instagram"></span>
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <span class="uk-icon" data-uk-icon="icon: twitter"></span>
                 </a>
               </li>
             </ul>

@@ -11,13 +11,12 @@
       <div class="uk-container">
         <div data-uk-grid class="uk-child-width-1-2@s">
           <div class="uk-margin-remove uk-text-left@s">
-            &copy; 2019 Freda, by YobiThemes.
+            &copy; {{ new Date().getFullYear() }}, Mohamed Aitmiloud.
           </div>
           <div class="uk-margin-remove uk-text-right@s">
             <div class="yb-footer-social">
-              <a href="#">Facebook</a>
-              <a href="#">Instagram</a>
-              <a href="#">Twitter</a>
+              <a href="https://www.facebook.com/Mohamed.aitmiloud">Facebook</a>
+              <a href="https://www.instagram.com/geekait2">Instagram</a>
             </div>
           </div>
         </div>
@@ -27,6 +26,6 @@
 
 </template>
 
-<style>
-
-</style>
+<script>
+  
+</script>
