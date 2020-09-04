@@ -4,7 +4,7 @@
       <div class="yb-section-point-wrapper">
         <div class="uk-container">
           <div class="yb-section-point">
-            <sup>03</sup>
+            <sup>04</sup>
             <span>Resume</span>
           </div>
         </div>

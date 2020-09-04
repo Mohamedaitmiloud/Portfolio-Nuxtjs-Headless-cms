@@ -4,7 +4,7 @@
       <div class="yb-section-point-wrapper">
         <div class="uk-container">
           <div class="yb-section-point ">
-            <sup>06</sup>
+            <sup>05</sup>
             <span>Contact</span>
           </div>
         </div>
@@ -64,15 +64,15 @@
             <ul class="uk-list uk-list-divider uk-text-small yb-contact-mini">
               <li class="uk-flex uk-flex-middle">
                 <span data-uk-icon="mail" class="uk-flex-none uk-text-primary "></span>
-                <span>my.email@gmail.com</span>
+                <span>Mohammed.aitmiloud@gmail.com</span>
               </li>
               <li class="uk-flex uk-flex-middle">
                 <span data-uk-icon="phone" class="uk-flex-none uk-text-primary"></span>
-                <span> +62-123-123-213</span>
+                <span> +212640055605</span>
               </li>
               <li class="uk-flex uk-flex-middle">
                 <span data-uk-icon="location" class="uk-flex-none uk-text-primary "></span>
-                <span>Lamda Street West Cibinong 8027 Bogor</span>
+                <span>Temara, Morocco</span>
               </li>
             </ul>
           </div>

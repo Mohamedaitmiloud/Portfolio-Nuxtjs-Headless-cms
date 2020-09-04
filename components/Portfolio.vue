@@ -52,7 +52,7 @@
                             <a :href="work.poster.url" class="yb-lightbox uk-transition-slide-left" :data-caption="work.title+', '+work.tech">
                               <span data-uk-icon="icon:plus; ratio:1.2"></span>
                             </a>
-                            <a href="project/project-details-02.html" class="uk-transition-slide-right show-portfolio">
+                            <a :href="work.url" target="_blank" class="uk-transition-slide-right show-portfolio">
                               <span data-uk-icon="icon:link; ratio:1.2"></span>
                             </a>
                           </div>

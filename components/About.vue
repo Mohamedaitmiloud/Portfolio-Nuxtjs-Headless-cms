@@ -16,7 +16,7 @@
               <div class="yb-my-profile-desc">
                 <div class="yb-section-point-wrapper">
                   <div class="yb-section-point right">
-                    <sup>02</sup>
+                    <sup>03</sup>
                     <span>About</span>
                   </div>
                 </div>
@@ -36,22 +36,22 @@
                 <div class="yb-my-profile-desc-bottom yb-bg-soft">
                   <ul class="yb-my-profile-desc-info uk-list">
                     <li>
-                      <span>Birthdate</span> : 09/11/1990
+                      <span>Birthdate</span> : 09/09/1996
                     </li>
                     <li>
-                      <span>Skype</span> : my.username
+                      <span>Github</span> : mohamedaitmiloud
                     </li>
                     <li>
-                      <span>Phone</span> : + 123-456-789-426
+                      <span>Phone</span> : + 212640055605
                     </li>
                     <li>
-                      <span>Email</span> : get.someone@gmail.com
+                      <span>Email</span> : mohammed.aitmiloud@gmail.com
                     </li>
                     <li>
-                      <span>Website</span> : www.creativedomain.com
+                      <span>Website</span> : you are browsing it now
                     </li>
                     <li>
-                      <span>Addresses</span> : Collins Street West Victoria 8007 Australia
+                      <span>Addresses</span> : Temara, Morocco
                     </li>
                   </ul>
                 </div>
@@ -78,7 +78,7 @@
             <div>
               <div class="yb-box-service">
                 <span class="uk-icon" data-uk-icon="icon: world; ratio: 1.5"></span>
-                <h5>Web Marketer</h5>
+                <h5>Multimedia Technician</h5>
               </div>
             </div>
             <div>

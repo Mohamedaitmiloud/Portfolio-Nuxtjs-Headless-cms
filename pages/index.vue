@@ -9,11 +9,6 @@
 <script>
 export default {
 
-    head () {
-        return {
-            title: 'Mohamed Aitmiloud | Web Developer'
-        }
-    }
 
 }
 </script>

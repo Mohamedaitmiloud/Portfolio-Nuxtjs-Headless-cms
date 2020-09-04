@@ -15,15 +15,24 @@ export default {
   ** See https://nuxtjs.org/api/configuration-head
   */
   head: {
-    title: process.env.npm_package_name || '',
+    title: 'Mohamed Aitmiloud | Web Developer',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
+      { hid: 'description', name: 'description', content: 'Mohamed Aitmiloud, Web Developer' },
+      { hid: 'author', name: 'author', content: 'Mohamed Aitmiloud' },
+      { hid: 'og:title', property: 'og:title', content: 'Portfolio' },
+      { hid: 'og:description', property: 'og:description', content: 'Vous cherchez un Developpeur Web au Maroc pour la creation de votre Site Internet ? Prenons Contact' },
+      { hid: 'og:type', property: 'og:type', content: 'Portfolio' },
+      { name: 'twitter:card', content: 'summary' },
+      { name: 'twitter:title', content: 'Mohamed Aitmiloud' },
+      { name: 'twitter:description', content: 'Mohamed Aitmiloud, Web Developer' },
+      { name: 'twitter:site', content: 'Mohamed Aitmiloud' },
+      { name: 'twitter:creator', content: 'Mohamed Aitmiloud' },
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Poppins:400,500,700&display=swap'},
+      { rel: 'stylesheet', href: '/css/font.css'},
       { rel: 'stylesheet', href: '/css/uikit-custom.min.css'},
       { rel: 'stylesheet', href: '/css/app.css'},
     ],

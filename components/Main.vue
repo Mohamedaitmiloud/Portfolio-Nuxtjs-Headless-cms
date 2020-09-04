@@ -21,6 +21,7 @@
     title
     tech
     stack
+    url
     poster{
       url
     }

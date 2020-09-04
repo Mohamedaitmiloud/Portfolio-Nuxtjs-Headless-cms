@@ -33,7 +33,7 @@
     <nav class="yb-main-menu " id="main-menu">
       <div class="uk-container" data-uk-navbar>
         <div class="uk-navbar-left">
-          <a class="yb-logo uk-navbar-item uk-logo" href="dark-index.html"><span>Aitmiloud</span></a>
+          <a class="yb-logo uk-navbar-item uk-logo" href="#"><span>Aitmiloud</span></a>
         </div>
         <div class="uk-navbar-right uk-hidden@m">
           <a class="uk-navbar-toggle" href="#" id="btn-menu-toggle">
@@ -69,8 +69,13 @@
                 </a>
               </li>
               <li>
-                <a href="https://www.instagram.com/geekait2/">
-                  <span class="uk-icon" data-uk-icon="icon: instagram"></span>
+                <a href="https://www.linkedin.com/in/mohammed-aitmiloud/">
+                  <span class="uk-icon" data-uk-icon="icon: linkedin"></span>
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/Mohamedaitmiloud">
+                  <span class="uk-icon" data-uk-icon="icon: github"></span>
                 </a>
               </li>
             </ul>

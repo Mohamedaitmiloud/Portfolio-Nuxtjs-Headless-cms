@@ -17,6 +17,7 @@
             <div class="yb-footer-social">
               <a href="https://www.facebook.com/Mohamed.aitmiloud">Facebook</a>
               <a href="https://www.instagram.com/geekait2">Instagram</a>
+              <a href="https://github.com/Mohamedaitmiloud">Github</a>
             </div>
           </div>
         </div>
