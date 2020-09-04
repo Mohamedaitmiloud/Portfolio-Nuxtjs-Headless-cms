@@ -53,7 +53,6 @@ export default {
   ** https://nuxtjs.org/guide/plugins
   */
   plugins: [
-    '~/plugins/lazysizes.client.js'
   ],
   /*
   ** Auto import components
