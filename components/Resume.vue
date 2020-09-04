@@ -104,7 +104,7 @@
                   <div v-for="(stack, index) in allStacks" :key="index">
                     <div class="yb-box-circle">
                      
-                        <img :src="stack.logo.url" width="100" height="100">
+                        <img :src="stack.logo.url" width="100" height="100" class="lazyload">
       
                       <h5 class="yb-box-circle-title">{{ stack.name }}</h5>
                     </div>
