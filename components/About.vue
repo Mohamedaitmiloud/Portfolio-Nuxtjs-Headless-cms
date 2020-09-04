@@ -6,9 +6,9 @@
           <div class="uk-grid-collapse uk-child-width-expand@m" data-uk-grid>
             <div>
               <div class="yb-my-profile-img uk-background-cover uk-background-norepeat uk-background-top-center" data-src="/img/profile.jpg" data-uk-img data-uk-lightbox>
-                <a href="https://www.youtube.com/watch?v=uQBL7pSAXR8" class="yb-my-intro">
+                <a href="https://www.youtube.com/watch?v=YvSajcvvrJ4&" class="yb-my-intro">
                   <span data-uk-icon="icon: play; ratio: 2"></span>
-                  <span class="yb-my-intro-text">Introduction</span>
+                  <span class="yb-my-intro-text">Youtube</span>
                 </a>
               </div>
             </div>
@@ -23,14 +23,7 @@
                 <div class="yb-my-profile-desc-top">
                   <h2 class="yb-section-title">Hello There!</h2>
                   <p>
-                    I discovered my passion for design when I was a sophomore in
-                    High School; It was then when it became clear what I wanted to
-                    do for a living. I pursued my career at the amazing Valencia
-                    College where I started my major in Print Design. A year later
-                    I took a begginer’s Web class, where I discovered the love for
-                    code. After that, I switched my major to Interactive Design
-                    and started the never-ending journey of becoming a web
-                    developer along with sharpening my eye for design.
+                    I've been in love with web development for more than 5 years. I'm very passionate and enthusiastic about using technology to solve my life's problems and ambitions, I don't take things for granted, this is why I'm constantly innovating, learning, and trying new ways to accomplish my goals with both quality and harmony, and not to mention, I really like a good cup of coffee ☕️. 
                   </p>
                 </div>
                 <div class="yb-my-profile-desc-bottom yb-bg-soft">
