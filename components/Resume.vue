@@ -27,9 +27,9 @@
                   </a>
                 </li>
                 <li>
-                  <a href="#skills" class="yb-inner-link" data-offset="120">
+                  <a href="#stack" class="yb-inner-link" data-offset="120">
                     <span data-uk-icon="minus"></span>
-                    Skills
+                    My Tech Stack
                   </a>
                 </li>
                 <li>
@@ -95,7 +95,7 @@
               </div>
             </div>
             <div>
-              <h2 class="yb-section-title  uk-heading-line " id="skills">
+              <h2 class="yb-section-title  uk-heading-line " id="stack">
                 <span>My Tech Stack</span>
               </h2>
               <div class="yb-margin-top-1 yb-margin-bottom-2">
@@ -104,7 +104,7 @@
                   <div v-for="(stack, index) in allStacks" :key="index">
                     <div class="yb-box-circle">
                      
-                        <img :src="stack.logo.url" width="100" height="100" class="lazyload">
+                        <img :src="stack.logo.webp" width="100" height="100" class="lazyload">
       
                       <h5 class="yb-box-circle-title">{{ stack.name }}</h5>
                     </div>
@@ -155,25 +155,25 @@
                       <li>
                         <div class="yb-resume-skill-item">
                           <h5>
-                            English <small class="uk-float-right uk-text-bold uk-visible@s">100%</small>
-                          </h5>
-                          <progress class="uk-progress" value="100" max="100"></progress>
-                        </div>
-                      </li>
-                      <li>
-                        <div class="yb-resume-skill-item">
-                          <h5>
-                            French <small class="uk-float-right uk-text-bold uk-visible@s">70%</small>
-                          </h5>
-                          <progress class="uk-progress" value="70" max="100"></progress>
-                        </div>
-                      </li>
-                      <li>
-                        <div class="yb-resume-skill-item">
-                          <h5>
-                            Chinese <small class="uk-float-right uk-text-bold uk-visible@s">80%</small>
+                            English <small class="uk-float-right uk-text-bold uk-visible@s">80%</small>
                           </h5>
                           <progress class="uk-progress" value="80" max="100"></progress>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="yb-resume-skill-item">
+                          <h5>
+                            French <small class="uk-float-right uk-text-bold uk-visible@s">60%</small>
+                          </h5>
+                          <progress class="uk-progress" value="60" max="100"></progress>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="yb-resume-skill-item">
+                          <h5>
+                            Arabic <small class="uk-float-right uk-text-bold uk-visible@s">100%</small>
+                          </h5>
+                          <progress class="uk-progress" value="100" max="100"></progress>
                         </div>
                       </li>
                     </ul>

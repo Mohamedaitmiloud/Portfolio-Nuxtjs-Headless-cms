@@ -64,11 +64,6 @@
           <div class="uk-navbar-right">
             <ul class="uk-navbar-nav yb-social-icons">
               <li>
-                <a href="https://www.facebook.com/Mohamed.aitmiloud">
-                  <span class="uk-icon " data-uk-icon="icon: facebook"></span>
-                </a>
-              </li>
-              <li>
                 <a href="https://www.linkedin.com/in/mohammed-aitmiloud/">
                   <span class="uk-icon" data-uk-icon="icon: linkedin"></span>
                 </a>
@@ -78,6 +73,14 @@
                   <span class="uk-icon" data-uk-icon="icon: github"></span>
                 </a>
               </li>
+
+
+              <li>
+                <a href="#">
+                  <span class="uk-icon">Dark Mode</span>
+                </a>
+              </li>
+
             </ul>
           </div>
         </div>

@@ -23,7 +23,7 @@
     stack
     url
     poster{
-      url
+      webp: url(imgixParams: {fm: webp, q: 60})
     }
   }
     }`,
@@ -68,7 +68,7 @@
   allStacks{
     name
     logo{
-      url
+      webp: url(imgixParams: {fm: webp, q: 60})
     }
   }
 

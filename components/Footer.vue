@@ -6,7 +6,7 @@
       <div id="waveHorizontal2" class="waveHorizontal" data-uk-img data-src="/img/bg/wave2.svg"></div>
       <div id="waveHorizontal3" class="waveHorizontal" data-uk-img data-src="/img/bg/wave3.svg"></div>
     </div>
-    <a href="#body-app" class="uk-visible@s yb-totop yb-inner-link" data-uk-totop></a>
+    <a href="#main-header" class="uk-visible@s yb-totop yb-inner-link" data-uk-totop></a>
     <div class="yb-main-footer">
       <div class="uk-container">
         <div data-uk-grid class="uk-child-width-1-2@s">

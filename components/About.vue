@@ -64,13 +64,13 @@
             </div>
             <div>
               <div class="yb-box-service">
-                <span class="uk-icon" data-uk-icon="icon: paint-bucket; ratio: 1.5"></span>
+                <span class="uk-icon" data-uk-icon="icon: code; ratio: 1.5"></span>
                 <h5>Web Designer</h5>
               </div>
             </div>
             <div>
               <div class="yb-box-service">
-                <span class="uk-icon" data-uk-icon="icon: world; ratio: 1.5"></span>
+                <span class="uk-icon" data-uk-icon="icon: paint-bucket; ratio: 1.5"></span>
                 <h5>Multimedia Technician</h5>
               </div>
             </div>

@@ -45,11 +45,11 @@
                     <div class="yb-work-item uk-transition-toggle">
                       <div class="yb-work-item-img-wrap">
                         <div class="yb-work-item-img">
-                          <img :src="work.poster.url" width="383" height="574" :data-src="work.poster.url" class="uk-transition-scale-up uk-transition-opaque" alt="" data-uk-img />
+                          <img :src="work.poster.webp" width="383" height="574" :data-src="work.poster.webp" class="uk-transition-scale-up uk-transition-opaque" alt="" data-uk-img />
                         </div>
                         <div class="yb-work-item-overlay uk-transition-fade uk-position-cover uk-position-small uk-overlay  uk-flex uk-flex-center uk-flex-middle">
                           <div>
-                            <a :href="work.poster.url" class="yb-lightbox uk-transition-slide-left" :data-caption="work.title+', '+work.tech">
+                            <a :href="work.poster.webp" class="yb-lightbox uk-transition-slide-left" :data-caption="work.title+', '+work.tech">
                               <span data-uk-icon="icon:plus; ratio:1.2"></span>
                             </a>
                             <a :href="work.url" target="_blank" class="uk-transition-slide-right show-portfolio">
