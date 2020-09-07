@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <Header />
+  <div :class = "(lightMode)?'yb-dark-skin uk-light':''">
+    <Header @darkMode="ChangeMode" :mode="lightMode"/>
     <Main />
     <Footer />
   </div>
@@ -9,6 +9,15 @@
 <script>
 export default {
 
+  data(){
+    return{
+    	lightMode:false,
+    }},
+ methods: {
+    ChangeMode(value) {
+    	this.lightMode = value;
+   }
+ }
 
 }
 </script>
