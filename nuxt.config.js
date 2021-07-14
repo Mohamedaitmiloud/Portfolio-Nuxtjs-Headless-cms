@@ -38,7 +38,8 @@ export default {
     ],
       script: [
           { src: '/js/plugins.min.js', body:true},
-          { src: '/js/app.js', body:true}
+          { src: '/js/app.js', body:true},
+          { hid: 'stripe', src: 'https://apps.elfsight.com/p/platform.js', defer: true }
       ],
   },
   /*
