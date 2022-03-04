@@ -64,6 +64,7 @@ export default {
   ** Nuxt.js dev-modules
   */
   buildModules: [
+    '@nuxtjs/google-analytics',
   ],
   /*
   ** Nuxt.js modules
@@ -76,6 +77,10 @@ export default {
     clientConfigs:{
       default: '~/apollo/config.js'
     }
+  },
+
+  googleAnalytics: {
+    id: 'UA-193272380-2'
   },
 
 
