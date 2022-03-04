@@ -1,5 +1,6 @@
 <template>
   <div>
+    <LoadSpinner v-if="showHideSpinner" />
     <Nuxt />
   </div>
 </template>
@@ -60,3 +61,19 @@ html {
   background-color: #35495e;
 }
 </style>
+
+<script>
+export default {
+  beforeCreate() {
+    this.showHideSpinner = true;
+  },
+  mounted() {
+    this.showHideSpinner = false;
+  },
+  data() {
+    return {
+      showHideSpinner: true
+    };
+  }
+};
+</script>

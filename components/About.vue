@@ -6,7 +6,7 @@
           <div class="uk-grid-collapse uk-child-width-expand@m" data-uk-grid>
             <div>
               <div class="yb-my-profile-img uk-background-cover uk-background-norepeat uk-background-top-center" data-src="/img/profile.jpg" data-uk-img data-uk-lightbox>
-                <a href="https://www.youtube.com/watch?v=YvSajcvvrJ4&" class="yb-my-intro">
+                <a href="https://www.youtube.com/watch?v=YvSajcvvrJ4" class="yb-my-intro">
                   <span data-uk-icon="icon: play; ratio: 2"></span>
                   <span class="yb-my-intro-text">Youtube</span>
                 </a>
@@ -39,9 +39,6 @@
                     </li>
                     <li>
                       <span>Email</span> : mohammed.aitmiloud@gmail.com
-                    </li>
-                    <li>
-                      <span>Website</span> : you are browsing it now
                     </li>
                     <li>
                       <span>Addresses</span> : Temara, Morocco
