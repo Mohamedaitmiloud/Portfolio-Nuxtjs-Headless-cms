@@ -102,9 +102,9 @@
                 <div class="uk-grid-collapse  uk-child-width-1-2 uk-child-width-1-3@s uk-child-width-1-4@m uk-text-center" data-uk-grid>
 
                   <div v-for="(stack, index) in allStacks" :key="index">
-                    <div class="yb-box-circle">
+                    <div class="yb-box-circle yb-client-item">
                      
-                        <img :src="stack.logo.webp" width="100" height="100" class="lazyload">
+                        <img :src="stack.logo.webp" width="50" height="50" class="lazyload">
       
                       <h5 class="yb-box-circle-title">{{ stack.name }}</h5>
                     </div>
